@@ -7,4 +7,4 @@ const litrosConsumidos = distanciaEmKm / kmPorLitros;
 var valorTotal = litrosConsumidos * precoCombustivel;
 
 var string = 'R$';
-console.log(string +  valorTotal);
+console.log(string +  valorTotal.toFixed(2));
