@@ -4,6 +4,6 @@
     if (ehNumeroPar) {
         console.log('O número é par');
     } else {
-       console.log('O número é ímpar') 
+       console.log('O número é ímpar'); 
     }
  
