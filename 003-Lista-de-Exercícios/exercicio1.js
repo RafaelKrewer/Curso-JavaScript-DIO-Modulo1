@@ -1,11 +1,13 @@
-const nota1 = 5
-const nota2 = 7
-const nota3 = 7
+    const nota1 = 3;
+    const nota2 = 7;
+    const nota3 = 9.5;
 
-const notaTotal = (nota1 + nota2 + nota3 )/ 3;
+    const notaMedia = (nota1 + nota2 + nota3 ) / 3;
 
-console.log(notaTotal);
+    console.log(notaMedia);
 
-if (notaTotal <= 4.9); {
-    console.log
-}  
+    if (notaMedia <= 4.9); {
+        console.log('rodou!')
+    }  
+    
+    if (notaMedia => 6.9 ); 
