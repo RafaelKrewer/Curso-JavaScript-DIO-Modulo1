@@ -2,7 +2,7 @@ const peso = 54;
 const altura = 1.67;
 const condicao = peso / (altura * altura);
 
-Math.pow()
+Math.pow(altura,2);
 
 if (condicao < 18.5) {
     console.log('Seu índice corporal IMC é de: ' + condicao.toFixed(0) + '.' + ' Você está abaixo do peso!')
