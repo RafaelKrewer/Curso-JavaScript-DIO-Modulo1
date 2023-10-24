@@ -1,6 +1,6 @@
 const preco = 100;
 const formaPagamento = 1;
-  
+
 if (formaPagamento === 1){
     console.log(preco - preco * 0.1);
 } else if(formaPagamento === 2){
