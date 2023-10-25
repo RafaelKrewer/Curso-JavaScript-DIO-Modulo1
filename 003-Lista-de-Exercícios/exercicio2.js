@@ -15,28 +15,3 @@
 }   else if (condicao >= 40) {
         console.log('Seu índice corporal IMC é de: ' + condicao.toFixed(0) + '!' +' Você está com obesidade grave. Vá ao pronto socorro IMEDIATAMENTE!')
 }
-
-/* Switch (ainda não funcionou) */
-    
-    /*switch(condicao) {
-        case "condicao" < 18.5: 
-            console.log('Seu índice corporal IMC é de: ' + condicao.toFixed(0) + ' Você está abaixo do peso!');
-            break;
-        
-        case "condicao" >= 18.5 && "condicao" < 25:
-            console.log('Seu índice corporal IMC é de: ' + condicao.toFixed(0) + ' Você está no peso normal!');
-            break;
-        
-        case "condicao" >= 25 && "condicao" < 30:
-            console.log('Seu índice corporal IMC é de: ' + condicao.toFixed(0) + ' Você acima do peso!');
-            break;        
-        
-        case "condicao" >= 30 && "condicao" < 40: 
-            console.log('Seu índice corporal IMC é de: ' + condicao.toFixed(0) + ' Você está com obesidade! Vai caminhar!');
-            break;
-
-        case "condicao" >= 40:
-            console.log('Seu índice corporal IMC é de: ' + condicao.toFixed(0) + ' Você está com obesidade grave. Vá ao pronto socorro IMEDIATAMENTE!');                
-            break;
-            default: console.log('23/10/2023');
-        }*/
