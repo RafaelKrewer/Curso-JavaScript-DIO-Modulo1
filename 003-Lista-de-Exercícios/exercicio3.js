@@ -17,6 +17,6 @@ switch(formaPagamento){
         console.log( 'Você escolheu pagar em mais de 2X! O preco total será de: R$' + total); 
         break;
     default:
-        console.log('Não aceitamos esse formato de pagamento!');
+        console.log('Não aceitamos esse tipo de cartão!');
         break;
 }
