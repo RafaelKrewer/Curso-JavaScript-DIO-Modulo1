@@ -1,0 +1,14 @@
+Copiar linha:
+    Shift + Alt + ↓/↑
+
+Mover linha:
+    Alt + ↓/↑
+
+Indentar linha:
+    Ctrl + ]/[ 
+
+Copiar tudo:
+    Ctrl + A
+
+Recortar:
+    Ctrl + X
