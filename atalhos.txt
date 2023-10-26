@@ -12,3 +12,6 @@ Copiar tudo:
 
 Recortar:
     Ctrl + X
+
+Selecionar várias linhas de uma vez:
+    Alt + Click
