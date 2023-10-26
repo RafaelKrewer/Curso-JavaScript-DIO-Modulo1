@@ -15,3 +15,10 @@ Recortar:
 
 Selecionar várias linhas de uma vez:
     Alt + Click
+
+=   Atribui a
+==	Igual a (pode ser string ou número)
+=== Igual a (não pode ser string)
+!=	Diferente 
+<=	Menor ou Igual
+>=	Maior ou Igual
