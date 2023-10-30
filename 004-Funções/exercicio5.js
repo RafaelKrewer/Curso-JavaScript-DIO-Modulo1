@@ -1,5 +1,5 @@
 const preco = 100;
-const pagamento = 2;
+const pagamento = 4;
 const parcela = preco * 0.1;
 const total = parcela + preco;
 const pix = preco - (preco * 0.15);
@@ -22,4 +22,3 @@ switch(pagamento){
         console.log('Não aceitamos esse tipo de cartão!');
         break;
 }
-    
