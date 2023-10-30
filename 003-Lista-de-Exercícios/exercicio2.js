@@ -12,6 +12,6 @@ if (condicao < 18.5) {
     console.log('Seu índice corporal IMC é de: ' + condicao.toFixed(0) + '!' +' Você está acima do peso!')
 }else if (condicao >= 30 && condicao < 40){
     console.log('Seu índice corporal IMC é de: ' + condicao.toFixed(0) + '!' +'Você está com obesidade! Vai caminhar!')
-}else if (condicao >= 40){
+}else if(condicao >= 40){
     console.log('Seu índice corporal IMC é de: ' + condicao.toFixed(0) + '!' +' Você está com obesidade grave. Vá ao pronto socorro IMEDIATAMENTE!')
 }
