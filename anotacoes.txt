@@ -22,3 +22,5 @@ Selecionar várias linhas de uma vez:
 !=	Diferente 
 <=	Menor ou Igual
 >=	Maior ou Igual
+
+Switch só funciona quando não tem que comparar valores numéricos!

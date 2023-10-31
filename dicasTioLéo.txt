@@ -14,4 +14,3 @@ switch(categoria){
         break;
 }
 Control X === copia e exclui (recorta)
-
