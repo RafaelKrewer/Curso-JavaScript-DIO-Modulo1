@@ -1,14 +1,12 @@
 // Objetos
 const rafael = {
-    nome:'Rafael Ferreira Krewer',
+    nome:'Rafael Krewer',
     idade: '15',
 
-    descrever: function(){
-        console.log('Meu nome é ${this.nome} e minha idade é ${this.idade}');
+    descrever: function () {
+        console.log(`Meu nome é ${this.nome} e tenho ${this.idade} anos.`);
     }
 }
 
-rafael.altura = '1.67',
-rafael.peso = '54';
-
-
+/*rafael['nome'] = 'teste';
+rafael.nome = 'teste'.*/
