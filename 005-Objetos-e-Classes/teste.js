@@ -1,37 +1,25 @@
-/*const peso = 54;
-const altura = 1.67;
-const condicao = peso / Math.pow(altura, 2);
-
-Math.pow(altura, 2);
-
-if (condicao < 18.5) {
-    console.log('Seu índice corporal IMC é de: ' + condicao.toFixed(0) + '!' +' Você está abaixo do peso!')
-}else if (condicao >= 18.5 && condicao < 25){
-    console.log('Seu índice corporal IMC é de: ' + condicao.toFixed(0) + '!' +' Você está no peso normal!')
-}else if (condicao > 25 && condicao < 30){
-    console.log('Seu índice corporal IMC é de: ' + condicao.toFixed(0) + '!' +' Você está acima do peso!')
-}else if (condicao >= 30 && condicao < 40){
-    console.log('Seu índice corporal IMC é de: ' + condicao.toFixed(0) + '!' +'Você está com obesidade! Vai caminhar!')
-}else if(condicao >= 40){
-    console.log('Seu índice corporal IMC é de: ' + condicao.toFixed(0) + '!' +' Você está com obesidade grave. Vá ao pronto socorro IMEDIATAMENTE!')
-}*/
-
 class Pessoa{
     nome;
     peso;
     altura;
+
+    constructor(nome, peso, altura){
+        this.nome;
+        this.peso;
+        this.altura;
+    }
 
     descrever(){
         return(`${this.nome}, seu índice IMC é de: ${imc}`);    
     }
 }
 
-const rafael = new Pessoa();
+const rafael = new Pessoa('Rafael', 54, 1.67);
 rafael.nome = 'Rafael';
 rafael.peso = 54;
 rafael.altura = 1.67;
 
-if (rafael)function calcularIMC(peso, altura){
+    function calcularIMC(peso, altura){
     return rafael.peso / Math.pow(rafael.altura, 2);
 }
 
