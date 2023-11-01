@@ -1,4 +1,3 @@
-// Objetos
 const rafael = {
     nome:'Rafael Krewer',
     idade: '15',
@@ -8,5 +7,3 @@ const rafael = {
     }
 }
 
-/*rafael['nome'] = 'teste';
-rafael.nome = 'teste'.*/
