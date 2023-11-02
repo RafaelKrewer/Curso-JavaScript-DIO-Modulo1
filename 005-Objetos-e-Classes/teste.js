@@ -15,7 +15,6 @@ class Pessoa{
 }
 
 const rafael = new Pessoa('Rafael', 54, 1.67);
-
 const cesar = new Pessoa('César', 90, 1.83);
 
 
