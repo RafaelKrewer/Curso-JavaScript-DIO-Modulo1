@@ -16,15 +16,23 @@ Recortar:
 Selecionar várias linhas de uma vez:
     Alt + Click
 
-=   Atribui a
-==	Igual a (pode ser string ou número)
-=== Igual a (não pode ser string)
-!=	Diferente 
-<=	Menor ou Igual
->=	Maior ou Igual
+    =   Atribui a
+    ==	Igual a (pode ser string ou número)
+    === Igual a (não pode ser string)
+    !=	Diferente 
+    <=	Menor ou Igual
+    >=	Maior ou Igual
 
 Switch só funciona quando não tem que comparar valores numéricos!
 
 Objetos:
-rafael['nome'] = 'teste';
-rafael.nome = 'teste'.
+    rafael['nome'] = 'teste';
+    rafael.nome = 'teste'.
+
+Operadores:
+    + === adição
+    - === subtração
+    * === multiplicação
+    / === divisão real (vírgula)
+    % === divisão inteira (resto)
+    ** === potência (ao quadrado)
