@@ -9,7 +9,7 @@ class Pessoa{
         this.altura = altura;
     }
 
-    descrever(){
+    descrever(rafael, cesar){
         return(`${this.nome}, seu índice IMC é de: ${imc}`);    
     }
 }

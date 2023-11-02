@@ -1,3 +1,4 @@
+Atalhos {
 Copiar linha:
     Shift + Alt + ↓/↑
 
@@ -5,7 +6,7 @@ Mover linha:
     Alt + ↓/↑
 
 Indentar linha:
-    Ctrl + ]/[ 
+    Ctrl + ]/[
 
 Copiar tudo:
     Ctrl + A
@@ -16,18 +17,9 @@ Recortar:
 Selecionar várias linhas de uma vez:
     Alt + Click
 
-    =   Atribui a
-    ==	Igual a (pode ser string ou número)
-    === Igual a (não pode ser string)
-    !=	Diferente 
-    <=	Menor ou Igual
-    >=	Maior ou Igual
-
-Switch só funciona quando não tem que comparar valores numéricos!
-
-Objetos:
-    rafael['nome'] = 'teste';
-    rafael.nome = 'teste'.
+Crase:
+    Alt + 9 + 6
+}
 
 Operadores:
     + === adição
@@ -36,3 +28,22 @@ Operadores:
     / === divisão real (vírgula)
     % === divisão inteira (resto)
     ** === potência (ao quadrado)
+
+    =   Atribui a
+    ==	Igual a (pode ser string ou número)
+    === Igual a (não pode ser string)
+    !=	Diferente 
+    <=	Menor ou Igual
+    >=	Maior ou Igual
+
+
+Switch só funciona quando não tem que comparar valores numéricos!
+
+
+Objetos:
+    rafael['nome'] = 'teste';
+    rafael.nome = 'teste'.
+
+
+
+
