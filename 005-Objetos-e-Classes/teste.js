@@ -39,7 +39,7 @@ if(imc < 18.5){
 } else if(imc >= 30 && imc < 40){
     console.log(rafael.descrever());
     console.log('Você está com obesidade!');
-} else if(imc >= 40){
+} else{
     console.log(rafael.descrever());
     console.log('Você está com obesidade grave!');
 }
