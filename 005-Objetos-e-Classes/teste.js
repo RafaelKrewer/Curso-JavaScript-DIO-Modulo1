@@ -27,19 +27,19 @@ Math.pow(rafael.altura, 2);
 
 let imc = calcularIMC(rafael.peso, rafael.altura);
 
-if(imc < 18.5){
-    console.log(rafael.descrever());
-    console.log('Você está abaixo do peso!');
-} else if(imc >= 18.5 && imc < 25){
-    console.log(rafael.descrever());
-    console.log('Você está no peso ideal!');
-} else if(imc > 25 && imc < 30){
-    console.log(rafael.descrever());
-    console.log('Você está acima do peso!');
-} else if(imc >= 30 && imc < 40){
-    console.log(rafael.descrever());
-    console.log('Você está com obesidade!');
-} else{
-    console.log(rafael.descrever());
-    console.log('Você está com obesidade grave!');
-}
+    if(imc < 18.5){
+        console.log(rafael.descrever());
+        console.log('Você está abaixo do peso!');
+    } else if(imc >= 18.5 && imc < 25){
+        console.log(rafael.descrever());
+        console.log('Você está no peso ideal!');
+    } else if(imc > 25 && imc < 30){
+        console.log(rafael.descrever());
+        console.log('Você está acima do peso!');
+    } else if(imc >= 30 && imc < 40){
+        console.log(rafael.descrever());
+        console.log('Você está com obesidade!');
+    } else{
+        console.log(rafael.descrever());
+        console.log('Você está com obesidade grave!');
+    }
