@@ -4,9 +4,9 @@ class Pessoa{
     altura;
 
     constructor(nome, peso, altura){
-        this.nome;
-        this.peso;
-        this.altura;
+        this.nome = nome;
+        this.peso = peso;
+        this.altura = altura;
     }
 
     descrever(){
@@ -15,14 +15,9 @@ class Pessoa{
 }
 
 const rafael = new Pessoa('Rafael', 54, 1.67);
-rafael.nome = 'Rafael';
-rafael.peso = 54;
-rafael.altura = 1.67;
 
 const cesar = new Pessoa('César', 90, 1.83);
-rafael.nome = 'Rafael';
-rafael.peso = 54;
-rafael.altura = 1.67;
+
 
     function calcularIMC(peso, altura){
     return rafael.peso / Math.pow(rafael.altura, 2);
