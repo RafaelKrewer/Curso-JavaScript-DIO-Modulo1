@@ -19,7 +19,7 @@ const cesar = new Pessoa('César', 90, 1.83);
 
 
     function calcularIMC(peso, altura){
-    return rafael.peso / (Math.pow(rafael.altura, 2));
+    return rafael.peso / Math.pow(rafael.altura, 2);
 }
 
 Math.pow(rafael.altura, 2);
