@@ -44,6 +44,9 @@ Objetos:
     rafael['nome'] = 'teste';
     rafael.nome = 'teste';
 
-
+Guardar Informação:
+    classIMC(){
+            const imc = this.calcIMC();
+        }
 
 
