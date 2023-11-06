@@ -9,7 +9,7 @@ class Pessoa{
         this.altura = altura;   
     }
 
-    IMC(){
+    imc(){
         return this.peso / (Math.pow(this.altura, 2));
     }
 }
@@ -17,6 +17,6 @@ class Pessoa{
 Math.pow(this.altura, 2);
 
 const jose = new Pessoa('José', 70, 1.75);
-console.log(jose.IMC());
-
-const paulo = new Pessoa ('Paulo', 80, 1,85);
+const paulo = new Pessoa('Paulo', 80, 1.85);
+console.log(jose.imc());
+console.log(paulo.imc());
