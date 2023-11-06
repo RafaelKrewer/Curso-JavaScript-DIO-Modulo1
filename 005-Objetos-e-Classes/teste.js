@@ -42,3 +42,5 @@ let imc = calcularIMC(rafael.peso, rafael.altura);
         console.log(rafael.descrever());
         console.log('Você está com obesidade grave!');
     }
+    
+   

@@ -42,7 +42,7 @@ Switch só funciona quando não tem que comparar valores numéricos!
 
 Objetos:
     rafael['nome'] = 'teste';
-    rafael.nome = 'teste'.
+    rafael.nome = 'teste';
 
 
 
