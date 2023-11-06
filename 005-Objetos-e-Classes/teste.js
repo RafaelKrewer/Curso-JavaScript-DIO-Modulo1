@@ -10,7 +10,7 @@ class Pessoa{
     }
 
     descrever(){
-        return(`${this.nome}, seu índice IMC é de: ${imc}`);    
+        return(`${this.nome}, seu índice IMC é de: ${imc.toFixed(0)}`);    
     }
 }
 
