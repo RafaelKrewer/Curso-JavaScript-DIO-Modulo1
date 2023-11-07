@@ -2,6 +2,6 @@ const alunos = ['João', 'Lucas', 'Guilherme', 'Jordana'];
 
 alunos.push('Renan');
 
-alunos[4] = '';
+alunos[5] = 'Paulo';
 
-console.log(alunos[0]);
+console.log(alunos);
