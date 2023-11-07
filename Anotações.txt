@@ -58,4 +58,7 @@ function descreverPessoa(pessoa) {
 
 Arrays(listas):
 São representadas assim:
-const alunos['João', 'Lucas', 'Guilherme', 'Maria'];
+const alunos = ['João', 'Lucas', 'Guilherme', 'Maria'];
+
+Para chamar só a primeira pessoa (João):
+console.log(alunos[0]);
