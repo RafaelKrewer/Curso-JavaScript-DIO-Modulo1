@@ -1,4 +1,4 @@
-Atalhos {
+Atalhos:
 Copiar linha:
     Shift + Alt + ↓/↑
 
@@ -19,7 +19,7 @@ Selecionar várias linhas de uma vez:
 
 Crase:
     Alt + 9 + 6
-}
+
 
 Operadores:
     + === adição
@@ -35,7 +35,6 @@ Operadores:
     !=	Diferente 
     <=	Menor ou Igual
     >=	Maior ou Igual
-
 
 Switch só funciona quando não tem que comparar valores numéricos!
 
@@ -56,9 +55,16 @@ function descreverPessoa(pessoa) {
     const renan = new Pessoa('Renan', 30);
     console.log(descreverPessoa(renan));
 
+
 Arrays(listas):
 São representadas assim:
 const alunos = ['João', 'Lucas', 'Guilherme', 'Maria'];
 
 Para chamar só a primeira pessoa (João):
 console.log(alunos[0]);
+
+Para dar adicionar algo:
+alunos.push('Renan');
+
+Para fazer uma média (arredondada):
+console.log(notas.length);
