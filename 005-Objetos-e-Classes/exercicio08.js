@@ -32,7 +32,8 @@ class Pessoa{
 
 Math.pow(this.altura, 2);
 
-const jose = new Pessoa('José', 70, 1.75);
-const paulo = new Pessoa('Paulo', 80, 1.85);
-console.log(jose.classIMC());
-console.log(paulo.classIMC());
+const rafael = new Pessoa('Rafael', 55, 1.67);
+const cesar = new Pessoa('César', 88, 1.83);
+console.log(rafael.classIMC());
+console.log(cesar.classIMC());
+

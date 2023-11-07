@@ -55,3 +55,7 @@ function descreverPessoa(pessoa) {
 
     const renan = new Pessoa('Renan', 30);
     console.log(descreverPessoa(renan));
+
+Arrays(listas):
+São representadas assim:
+const alunos['João', 'Lucas', 'Guilherme', 'Maria'];
