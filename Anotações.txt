@@ -20,6 +20,7 @@ Selecionar várias linhas de uma vez:
 Crase:
     Alt + 9 + 6
 
+///
 
 Operadores:
     + === adição
@@ -38,6 +39,7 @@ Operadores:
 
 Switch só funciona quando não tem que comparar valores numéricos!
 
+///
 
 Objetos:
     rafael['nome'] = 'teste';
@@ -55,6 +57,7 @@ function descreverPessoa(pessoa) {
     const renan = new Pessoa('Renan', 30);
     console.log(descreverPessoa(renan));
 
+///
 
 Arrays(listas):
 São representadas assim:
@@ -63,8 +66,13 @@ const alunos = ['João', 'Lucas', 'Guilherme', 'Maria'];
 Para chamar só a primeira pessoa (João):
 console.log(alunos[0]);
 
-Para dar adicionar algo:
+Dar adicionar algo:
 alunos.push('Renan');
 
-Para fazer uma média (arredondada):
+Fazer uma média (arredondada):
 console.log(notas.length);
+
+Fazer uma média, com valor decimal:
+const soma = notas[0] + notas[1] + notas[2] + notas[3] + notas[4] + notas[5];
+
+console.log(soma / 6);
