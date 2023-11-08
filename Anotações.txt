@@ -67,7 +67,7 @@ Para chamar só a primeira pessoa (João):
 console.log(alunos[0]);
 
 Dar adicionar algo:
-alunos.push('Renan');
+alunos.push('Rafael');
 
 Fazer uma média (arredondada):
 console.log(notas.length);
