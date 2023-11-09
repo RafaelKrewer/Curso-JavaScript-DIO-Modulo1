@@ -24,7 +24,7 @@ class Pessoa{
             return('Seu índice corporal IMC é de: ' + imc.toFixed(0) + '!' +' Você está acima do peso!');
         } else if (imc >= 30 && imc < 40){
             return('Seu índice corporal IMC é de: ' + imc.toFixed(0) + '!' +'Você está com obesidade! Vai caminhar!');
-        } else if(imc >= 40){
+        } else if (imc >= 40){
             return('Seu índice corporal IMC é de: ' + imc.toFixed(0) + '!' +' Você está com obesidade grave. Vá ao pronto socorro IMEDIATAMENTE!');
         }
     }
@@ -32,8 +32,9 @@ class Pessoa{
 
 Math.pow(this.altura, 2);
 
-const rafael = new Pessoa('Rafael', 55, 1.67);
-const cesar = new Pessoa('César', 88, 1.83);
-console.log(rafael.classIMC());
+const triz = new Pessoa('Triz', 39, 1.39);
+const lena = new Pessoa('Lena', 42, 1.49);
+const cesar = new Pessoa('Pai', 88, 1.83);
+console.log(triz.classIMC());
+console.log(lena.classIMC());
 console.log(cesar.classIMC());
-
