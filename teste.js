@@ -9,8 +9,13 @@ class Pessoa{
         this.altura = altura;   
     }
 
+    metodo(){
+        console.log(this.nome, this.altura, this.peso);
+ }
+
     calcIMC(){
         return this.peso / (Math.pow(this.altura, 2));
+        Math.pow(this.altura, 2);
     }
 
     classIMC(){
@@ -30,15 +35,19 @@ class Pessoa{
     }
 }
 
-
-    function descrever(){
-        console.log(`${pessoa.nome};${pessoa.peso};${pessoa.altura};`);
+    function descrever(pessoas){
+        
     }
 
-Math.pow(this.altura, 2);
+    Object.keys(pessoas).forEach(descrever =>{
+        console.log(`${descrever}`);
+    });
+
 
 const rafael = new Pessoa('Rafael', 55, 1.67);
 const cesar = new Pessoa('César', 88, 1.83);
-const pessoa = [rafael];
+const pessoas = [];
+pessoas.push(rafael);
+/*pessoas.push(cesar);*/
 
-console.log(descrever());
+console.log();
