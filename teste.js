@@ -9,6 +9,11 @@ class Pessoa{
         this.altura = altura;   
     }
 
+    descrever(){
+        console.log(`${pessoa.nome};${pessoa.peso};${pessoa.altura};`);
+    }
+        
+    
     calcIMC(){
         return this.peso / (Math.pow(this.altura, 2));
     }
@@ -30,10 +35,11 @@ class Pessoa{
     }
 }
 
+
 Math.pow(this.altura, 2);
 
 const rafael = new Pessoa('Rafael', 55, 1.67);
 const cesar = new Pessoa('César', 88, 1.83);
-console.log(rafael.classIMC());
+const pessoa = [rafael];
 
-
+console.log(descrever());
