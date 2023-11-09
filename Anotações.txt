@@ -28,16 +28,16 @@ Operadores:
     * === multiplicação
     / === divisão real (vírgula)
     % === divisão inteira (resto)
-    ** === potência (ao quadrado)
+   ** === potência (ao quadrado)
 
-    =   Atribui a
+     =  Atribui a
     ==	Igual a (pode ser string ou número)
-    === Igual a (não pode ser string)
+   ===  Igual a (não pode ser string)
     !=	Diferente 
     <=	Menor ou Igual
     >=	Maior ou Igual
 
-Switch só funciona quando não tem que comparar valores numéricos!
+Switch não funciona quando tem que comparar valores numéricos!
 
 ///
 
@@ -61,7 +61,7 @@ function descreverPessoa(pessoa) {
 
 Arrays(listas):
 São representadas assim:
-const alunos = ['João', 'Lucas', 'Guilherme', 'Maria'];
+const alunos = ['João', 'Lucas', 'Guilherme', 'Adriana'];
 
 Para chamar só a primeira pessoa (João):
 console.log(alunos[0]);

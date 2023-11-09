@@ -1,4 +1,4 @@
-const alunos = ['João', 'Lucas', 'Guilherme', 'Jordana'];
+const alunos = ['João', 'Lucas', 'Guilherme', 'Adriana'];
 
 alunos.push('Renan');
 
