@@ -11,7 +11,7 @@ class Pessoa{
 
     metodo(){
         console.log(this.nome, this.altura, this.peso);
- }
+    }
 
     calcIMC(){
         return this.peso / (Math.pow(this.altura, 2));
