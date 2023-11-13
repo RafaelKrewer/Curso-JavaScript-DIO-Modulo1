@@ -1,9 +1,20 @@
-const rafael = {
-    nome:'Rafael Krewer',
-    idade: '15',
+class Pessoa {
+    nome;
+    idade;
+    anoDeNascimento;
 
-    descrever: function () {
-        console.log(`Meu nome é ${this.nome} e tenho ${this.idade} anos.`);
+    constructor(nome, idade){
+        this.nome = nome;
+        this.idade = idade;
+        this.anoDeNascimento = 2023 - this.idade;
+    }
+
+    descrever(){
+        console.log(`Meu nome é ${this.nome}, tenho ${this.idade} anos e nasci em ${this.anoDeNascimento}`);         
     }
 }
 
+const rafael = new Pessoa('Rafael', 15);
+const cesar = new Pessoa('César', 45);
+
+console.log(rafael);

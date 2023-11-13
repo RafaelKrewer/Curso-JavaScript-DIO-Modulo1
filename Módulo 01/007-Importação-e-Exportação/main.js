@@ -1,1 +1,3 @@
-const funcoes = require('./aula13.js');
+const funcoes = require('./aula12.js');
+
+console.log(funcoes);
