@@ -17,16 +17,23 @@ class Pessoa{
 
     classificarNota(){
         const media = this.calculoNota;
-        if (media < 5) {
-            return('Reprovado');
-        } else if (media >= 5 && media < 7){
-            return('Recuperação');
-        } else if (media >= 7){
-            return('Aprovado');
+     
+        switch(media){
+            case media < 5:
+                console.log(('Sua nota é' + media + 'Reprovado'));
+                break;
+            case media >= 5 && media < 7:
+                console.log(('Sua nota é' + media + 'Recuperação'));
+                break;
+            case media >= 7:
+                console.log(('Sua nota é' + media + 'Aprovado'));
+                break;
         }
     }
 }
 
 const jose = new Pessoa('José', 5, 4, 8);
+const calculoNota = (this.nota1 + this.nota2 + this.nota3) / 3;
 
 console.log(jose.calculoNota());
+console.log(jose.classificarNota());
