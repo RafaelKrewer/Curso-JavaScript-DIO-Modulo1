@@ -22,6 +22,9 @@ Crase:
     ou
     Shift + Crase + Espaço
 
+Arrumar Código:
+    Alt + Shift + F
+
 ///
 
 Operadores:
