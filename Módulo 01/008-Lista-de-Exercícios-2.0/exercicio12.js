@@ -4,21 +4,21 @@ class Pessoa{
     nota2;
     nota3;
 
-    constructor(nome, nota1, nota2, nota3){
+    constructor(nome, nota1, nota2, nota3) {
         this.nome = nome;
         this.nota1 = nota1;
         this.nota2 = nota2;
         this.nota3 = nota3;
     }
 
-    calculoNota(){
+    calculoNota() {
         return (this.nota1 + this.nota2 + this.nota3) / 3;
     }
 
-    classificarNota(){
+    classificarNota() {
         const media = this.calculoNota;
      
-        switch(media){
+        switch(media) {
             case media < 5:
                 console.log(('Sua nota é' + media + 'Reprovado'));
                 break;
