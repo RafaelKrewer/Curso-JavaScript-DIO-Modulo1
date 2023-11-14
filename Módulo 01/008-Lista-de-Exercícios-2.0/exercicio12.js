@@ -18,10 +18,11 @@ else {
     case media >= 5 && media < 7:
         print('Recuperação');
         break;
-    case media >= 5 && media < 7:
+    case media >= 7:
         print('Aprovado');
         break;
     default:
+        print('Erro :(')
         break;
 }*/
 
