@@ -7,8 +7,8 @@ function gets() {
     return valor;
 }
 
-function print (texto) {
+function print(texto) {
     console.log(texto);
 }
 
-module.exports = {gets, print};
+module.exports = { gets, print };
