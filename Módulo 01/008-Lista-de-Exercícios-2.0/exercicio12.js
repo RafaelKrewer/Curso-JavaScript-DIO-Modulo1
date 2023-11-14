@@ -1,3 +1,5 @@
+const ``
+
 class Pessoa{
     nome;
     nota1;

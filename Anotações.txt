@@ -19,6 +19,8 @@ Selecionar várias linhas de uma vez:
 
 Crase:
     Alt + 9 + 6
+    ou
+    Shift + Crase + Espaço
 
 ///
 
