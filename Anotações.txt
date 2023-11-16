@@ -65,22 +65,28 @@ function descreverPessoa(pessoa) {
 ///
 
 Arrays(listas):
-São representadas assim:
-const alunos = ['João', 'Lucas', 'Guilherme', 'Adriana'];
+    São representadas assim:
+        const alunos = ['João', 'Lucas', 'Guilherme', 'Adriana'];
 
-Para chamar só a primeira pessoa (João):
-console.log(alunos[0]);
+    Para chamar só a primeira pessoa (João):
+        console.log(alunos[0]);
 
-Dar adicionar algo:
-alunos.push('Rafael');
+    Para adicionar algo:
+        alunos.push('Rafael');
 
-Fazer uma média (arredondada):
-console.log(notas.length);
+    Fazer uma média (arredondada):
+        console.log(notas.length);
 
-Fazer uma média, com valor decimal:
-const soma = notas[0] + notas[1] + notas[2] + notas[3] + notas[4] + notas[5];
+    Fazer uma média, com valor decimal:
+        const soma = notas[0] + notas[1] + notas[2] + notas[3] + notas[4] + notas[5];
+            console.log(soma / 6);
+            
+    Dar um print em determinada característica da function(pessoa):
+        if (pessoa.nome === 'Rafael'){
+            pessoa.print();
+                }
 
-console.log(soma / 6);
+///
 
 Estruturas de Repetição:
  
@@ -88,6 +94,6 @@ for (let i = 0; i < 10; i++) {
     
 }
 i++ === let i = 1;
-        i = i + 1;
+        ++ = +1;
 
     Ele vai repetir a mesma coisa até chegar em um número que é maior do que 10.

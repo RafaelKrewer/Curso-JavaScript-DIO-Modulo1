@@ -14,3 +14,11 @@ switch(categoria){
         break;
 }
 Control X === copia e exclui (recorta)
+
+function descrever(pessoas){
+      pessoas.forEach(function(pessoa){
+        /*if (pessoa.nome === 'Rafael'){
+            pessoa.print();
+        }*/
+      });  
+    }

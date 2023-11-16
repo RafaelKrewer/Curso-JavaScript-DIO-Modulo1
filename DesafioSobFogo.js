@@ -9,7 +9,7 @@ class Pessoa{
         this.altura = altura;   
     }
 
-    metodo(){
+    print(){
         console.log(this.nome, this.altura, this.peso);
     }
 
@@ -35,18 +35,20 @@ class Pessoa{
 }
 
     function descrever(pessoas){
-        
+      pessoas.forEach(function(pessoa){
+        /*if (pessoa.nome === 'Rafael'){
+            pessoa.print();
+        }*/
+      });  
     }
-
-    /*Object.keys(pessoas).forEach(descrever =>{
-        console.log(`${descrever}`);
-    });*/
 
 Math.pow(this.altura, 2);
 const rafael = new Pessoa('Rafael', 55, 1.67);
 const cesar = new Pessoa('César', 88, 1.83);
 let pessoas = [];
 pessoas.push(rafael);
-/*pessoas.push(cesar);*/
+pessoas.push(cesar);
 
-console.log();
+descrever(pessoas);
+
+
