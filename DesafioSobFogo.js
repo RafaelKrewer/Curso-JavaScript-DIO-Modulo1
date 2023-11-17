@@ -36,9 +36,8 @@ class Pessoa{
 
     function descrever(pessoas){
       pessoas.forEach(function(pessoa){
-        /*if (pessoa.nome === 'Rafael'){
-            pessoa.print();
-        }*/
+        pessoa.print();
+        
       });  
     }
 
