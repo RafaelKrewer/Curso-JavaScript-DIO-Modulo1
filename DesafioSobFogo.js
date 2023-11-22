@@ -46,8 +46,8 @@ const rafael = new Pessoa('Rafael', 55, 1.67);
 const cesar = new Pessoa('César', 88, 1.83);
 let pessoas = [];
 pessoas.push(rafael);
-pessoas.push(cesar);
 
 descrever(pessoas);
+console.log()
 
 
