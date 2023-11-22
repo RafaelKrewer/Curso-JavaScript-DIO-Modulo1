@@ -100,3 +100,8 @@ i++ === let i = 1;
         ++ = +1;
 
     Ele vai repetir a mesma coisa até chegar em um número que é maior do que 10.
+
+
+     else if (numero > maiorNumeroPar) {
+            maiorNumeroPar = numero;
+        }
