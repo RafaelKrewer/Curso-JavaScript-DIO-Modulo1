@@ -1,31 +1,34 @@
 Atalhos:
 Copiar linha:
-    Shift + Alt + ↓/↑
+    Shift + Alt + ↓/↑;
 
 Mover linha:
-    Alt + ↓/↑
+    Alt + ↓/↑;
 
 Indentar linha:
-    Ctrl + ]/[
+    Ctrl + ]/[;
 
 Copiar tudo:
-    Ctrl + A
+    Ctrl + A;
 
 Recortar:
-    Ctrl + X
+    Ctrl + X;
 
 Selecionar várias linhas de uma vez:
-    Alt + Click
+    Alt + Click;
 
 Crase:
-    Alt + 9 + 6
+    Alt + 9 + 6;
     ou
-    Shift + Crase + Espaço
+    Shift + Crase + Espaço;
 
 Arrumar Código:
-    Alt + Shift + F
+    Alt + Shift + F;
 
-///
+Escrever Pipe (||):
+Shift + Pipe;
+
+//
 
 Operadores:
     + === adição
@@ -44,7 +47,7 @@ Operadores:
 
 Switch não funciona quando tem que comparar valores numéricos!
 
-///
+//
 
 Objetos:
     rafael['nome'] = 'teste';
@@ -62,7 +65,7 @@ function descreverPessoa(pessoa) {
     const renan = new Pessoa('Renan', 30);
     console.log(descreverPessoa(renan));
 
-///
+//
 
 Arrays(listas):
     São representadas assim:
@@ -86,7 +89,7 @@ Arrays(listas):
             pessoa.print();
                 }
 
-///
+//
 
 Estruturas de Repetição:
  
