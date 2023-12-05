@@ -17,5 +17,5 @@ for (let i = 0; i < n; i++) {
 
 }
 
-print('O maior número par é: ' + maiorNumeroPar);
-print('O menor número ímpar é: ' + menorNumeroImpar);
+print('Maior número par: ' + maiorNumeroPar);
+print('Menor número ímpar: ' + menorNumeroImpar);
