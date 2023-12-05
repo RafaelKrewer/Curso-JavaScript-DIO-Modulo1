@@ -1,13 +1,13 @@
 const { gets, print } = require('./exercicio14');
 
 const salarioBruto = gets();
-const adicionalBeneficios = gets();
+const beneficios = gets();
 
 function calcularPorcentagem(valor, percentual) {
     return valor * (percentual / 100);
 };
 
-function percentualImpostoComBaseNoSalario(salario) {
+function pegarAliquota(salario) {
 
     if (salario >= 0 && salario <= 1100) {
         return 5;
@@ -18,5 +18,8 @@ function percentualImpostoComBaseNoSalario(salario) {
     }
 
 };
+const aliquotaImposto = pegarAliquota(salarioBruto);
+const imposto = calcularPorcentagem(salarioBruto, aliquotaImposto);
+const valorATransferir = salarioBruto - imposto + beneficios;
 
-print(percentualImpostoComBaseNoSalario(salarioBruto));
+print(valorATransferir);

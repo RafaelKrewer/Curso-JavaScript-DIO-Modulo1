@@ -26,7 +26,10 @@ Arrumar Código:
     Alt + Shift + F;
 
 Escrever Pipe (||):
-Shift + Pipe;
+Shift + Pipe(do lado do Z);
+
+Alterar nome de todas as constantes/variáveis iguais 
+Click + F2;
 
 //
 
