@@ -31,6 +31,12 @@ Shift + Pipe(do lado do Z);
 Alterar nome de todas as constantes/variáveis iguais 
 Click + F2;
 
+Procurar arquivo por nome:
+Control + 'P';
+
+Iniciar um servidor http:
+http-server ./;
+
 //
 
 Operadores:
